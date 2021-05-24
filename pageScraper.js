@@ -4,7 +4,7 @@ const scraperObject = {
   urlClasses: "https://crosshero.com/dashboard/recurring_classes",
   //urlClasses:
   // "https://crosshero.com/dashboard/classes?id=60413d5454ef2c003fe6bfe8",
-  search: "MiRi 🦄",
+  search: "---",
   async scraper(browser) {
     let page = await browser.newPage();
     console.log(`Navigating to ${this.url}...`);
